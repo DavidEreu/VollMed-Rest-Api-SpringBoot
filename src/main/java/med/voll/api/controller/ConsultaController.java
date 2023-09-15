@@ -29,6 +29,7 @@ public class ConsultaController {
         service.agendar(datos);
 
         return ResponseEntity.ok(new DatosDetalleConsulta(null, null, null, null));
+
     }
 
 
